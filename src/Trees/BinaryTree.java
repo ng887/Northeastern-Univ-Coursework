@@ -3,7 +3,7 @@ package Trees;
 /**
  * Created by neha on 2/6/2017.
  */
-public class Tree {
+public class BinaryTree {
 
     /*
     // TREE
@@ -18,7 +18,8 @@ public class Tree {
 
     public Node root;
 
-    public Tree()
+
+    public BinaryTree()
     {
         createTree();
     }
@@ -33,15 +34,31 @@ public class Tree {
 
         root.left.left= new Node(4);
         root.left.right = new Node(5);
-     //   root.left.left.left = new Node(8);
+       root.left.left.left = new Node(8);
         root.left.left.right = new Node(9);
 
         root.left.right.right = new Node(10);
 
         root.right.left = new Node(6);
         root.right.right = new Node(7);
-    //    root.right.right.right = new Node(11);
+      root.right.right.right = new Node(11);
 
+    }
+
+    public Node insert(Node node, int data){
+      if(node == null){
+          return new Node(data);
+      }
+
+      if(data <  node.data){
+          node.left = insert(node.left, data);
+          node.left.parent = node;
+      }
+      else if (data > node.data){
+          node.right = insert(node.right,data);
+          node.right.parent = node;
+      }
+        return node;
     }
 
     public void display(Node root){
@@ -53,7 +70,7 @@ public class Tree {
     }
 
     public void printTree(){
-        System.out.println("Binary Tree: ");
+        System.out.println("Binary BinaryTree: ");
         System.out.println("                           1\n" +
                 "                        /   \\\n" +
                 "                        2      3\n" +
