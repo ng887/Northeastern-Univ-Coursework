@@ -1,0 +1,12 @@
+#news img {
+    width: 100%;
+    height: 500px;
+}
+
+.hidden {
+    display: none;
+}
+
+#news h1 {
+    text-transform: uppercase;
+}

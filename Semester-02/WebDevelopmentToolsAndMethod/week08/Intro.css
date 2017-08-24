@@ -1,0 +1,22 @@
+#intro {
+    display: flex;
+    background-color: #000000;
+    padding: 5%;
+    padding-left: 3%;
+    margin-top: 5%;
+}
+
+#heading {
+    position: absolute;
+    display: flex;
+    color: #ffffff;
+    width: 10%;
+    margin-top: 5%;
+    background-color: #000000;
+    padding: 2%;
+    opacity: .8;
+}
+
+#imgContainer {
+    margin-left: 5%;
+}

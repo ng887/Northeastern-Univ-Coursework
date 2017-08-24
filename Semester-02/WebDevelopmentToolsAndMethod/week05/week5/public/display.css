@@ -1,0 +1,36 @@
+.flexContainer {
+    display: -webkit-flex;
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background-color: lightgrey;
+    flex-wrap: wrap;
+    margin-top: 100;
+    margin-bottom: 100;
+    margin-left: 32%;
+    border-radius: 25px;
+
+}
+
+.flexItem {
+    background-color: #9972c4;;
+    width: 100px;
+    height: 100px;
+    margin:10px;
+    margin-left:  20px ;
+    font-size:70px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.message {
+text-align: center;
+font-size: 50px;
+color: purple;
+}
+
+#board{
+  /*display:  none;*/
+   visibility:hidden;
+  display: block;
+ }

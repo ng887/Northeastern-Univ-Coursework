@@ -1,0 +1,20 @@
+{
+  "name": "week4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "web-server.js",
+  "scripts": {
+    "test": "jasmine word-game.spec.js",
+    "xprestart": "browserify foo.js -o public/bundle.js",
+    "start": "node web-server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^13.3.0",
+    "express": "^4.14.0",
+    "jasmine": "^2.5.3",
+    "jasmine-spec-reporter": "^3.2.0",
+    "node-fetch": "^1.6.3"
+  }
+}

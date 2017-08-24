@@ -1,0 +1,10 @@
+.dropdown {
+    background-color: #ffffff;
+    border: none;
+    color: #b30000;
+    font-size: 25px;
+}
+
+.dropdown:hover {
+    cursor: pointer;
+}

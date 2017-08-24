@@ -1,0 +1,11 @@
+#content {
+    padding: 0 10% 1% 10%;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+#content h1 {
+    padding-top: 3%;
+    margin-top: 0;
+    margin-bottom: 0;
+}

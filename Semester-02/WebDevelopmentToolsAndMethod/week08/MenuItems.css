@@ -1,0 +1,24 @@
+.dropdown-menu {
+    background-color: #808080;
+    line-height: 200%;
+    margin-left: 0;
+    padding: 10px;
+    margin-top: 0;
+    font-size: 15px;
+    width: auto;
+    position: fixed;
+    color: #ffffff;
+}
+
+.dropdown-menu li {
+    list-style-type: none;
+    border-bottom: solid;
+    padding: 1%;
+    text-align: left;
+    width: auto;
+}
+
+.dropdown-menu li:hover {
+    cursor: pointer;
+    background-color: #1a1a1a;
+}

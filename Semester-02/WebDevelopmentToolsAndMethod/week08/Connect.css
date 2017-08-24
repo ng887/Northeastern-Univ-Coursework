@@ -1,0 +1,17 @@
+#connect ul{
+	padding: 0;	
+}
+
+#connect .socialIcons li{
+
+	display: inline;
+	list-style-type: none;
+	margin:20px;
+	margin-left: 0;
+}
+
+#connect .socialIcons img{
+	background-color: white;
+	width: 4%;
+}
+
